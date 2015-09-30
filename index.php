@@ -15,7 +15,7 @@ $message = $_POST['fmsg'];
 $message = wordwrap($message, 70);
 
 // Send Mail By PHP Mail Function
-$mail($to, $name, $message, $email);
+$ok = mail($to, $name, $message, $email);
 
  if($ok)
          {
@@ -28,8 +28,6 @@ $mail($to, $name, $message, $email);
             die("Sorry but the email could not be sent. Please go back and try again!");
          }
       }
-
-}
 ?>
 
 
