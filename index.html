@@ -15,9 +15,19 @@ $message = $_POST['fmsg'];
 $message = wordwrap($message, 70);
 
 // Send Mail By PHP Mail Function
-mail($to, $name, $message, $email);
+$mail($to, $name, $message, $email);
 
-echo "Your mail has been sent successfuly ! Thank you for your feedback";
+ if($ok)
+         {
+            echo "File Sent Successfully.";
+            unlink($attachment); // delete a file after attachment sent.
+         }
+         
+         else
+         {
+            die("Sorry but the email could not be sent. Please go back and try again!");
+         }
+      }
 
 }
 ?>
