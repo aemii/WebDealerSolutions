@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>WebDealerSolutions</Name>
+    <ProjectGuid>537c6726-44d5-4ecd-a2bd-715a723d0e3b</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebDealerSolutions</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>WebDealerSolutions</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+    <Compile Include="sendemail.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="fonts\font-awesome\" />
+    <Folder Include="fonts\font-awesome\css\" />
+    <Folder Include="fonts\font-awesome\fonts\" />
+    <Folder Include="fonts\font-awesome\less\" />
+    <Folder Include="fonts\font-awesome\scss\" />
+    <Folder Include="fonts\fonts\" />
+    <Folder Include="img\" />
+    <Folder Include="img\client\" />
+    <Folder Include="img\portfolio\" />
+    <Folder Include="img\team\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".DS_Store" />
+    <Content Include="BouganSSi.ttf" />
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\.DS_Store" />
+    <Content Include="fonts\font-awesome\.DS_Store" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome\less\animated.less" />
+    <Content Include="fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome\less\core.less" />
+    <Content Include="fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome\less\icons.less" />
+    <Content Include="fonts\font-awesome\less\larger.less" />
+    <Content Include="fonts\font-awesome\less\list.less" />
+    <Content Include="fonts\font-awesome\less\mixins.less" />
+    <Content Include="fonts\font-awesome\less\path.less" />
+    <Content Include="fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome\less\stacked.less" />
+    <Content Include="fonts\font-awesome\less\variables.less" />
+    <Content Include="fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome\scss\_core.scss" />
+    <Content Include="fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome\scss\_list.scss" />
+    <Content Include="fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome\scss\_path.scss" />
+    <Content Include="fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\.DS_Store" />
+    <Content Include="img\01.jpg" />
+    <Content Include="img\01.png" />
+    <Content Include="img\011 %282%29.png" />
+    <Content Include="img\02.png" />
+    <Content Include="img\03.jpg" />
+    <Content Include="img\031.jpg" />
+    <Content Include="img\04.jpg" />
+    <Content Include="img\05.jpg" />
+    <Content Include="img\car.png" />
+    <Content Include="img\client\.DS_Store" />
+    <Content Include="img\client\01.png" />
+    <Content Include="img\client\02.png" />
+    <Content Include="img\client\03.png" />
+    <Content Include="img\client\04.png" />
+    <Content Include="img\client\05.png" />
+    <Content Include="img\client\06.png" />
+    <Content Include="img\client\07.png" />
+    <Content Include="img\clock.png" />
+    <Content Include="img\copy.png" />
+    <Content Include="img\house.png" />
+    <Content Include="img\knife.png" />
+    <Content Include="img\laptop.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\mobile-small.png" />
+    <Content Include="img\mobile.png" />
+    <Content Include="img\page.png" />
+    <Content Include="img\portfolio\01.jpg" />
+    <Content Include="img\portfolio\02.jpg" />
+    <Content Include="img\portfolio\03.jpg" />
+    <Content Include="img\portfolio\04.jpg" />
+    <Content Include="img\portfolio\05.jpg" />
+    <Content Include="img\portfolio\06.jpg" />
+    <Content Include="img\portfolio\07.jpg" />
+    <Content Include="img\portfolio\08.jpg" />
+    <Content Include="img\printer.png" />
+    <Content Include="img\team\01.jpg" />
+    <Content Include="img\team\02.jpg" />
+    <Content Include="img\team\03.jpg" />
+    <Content Include="img\team\04.jpg" />
+    <Content Include="img\Untitled-2.png" />
+    <Content Include="js\.DS_Store" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.1.11.1.js" />
+    <Content Include="js\jquery.isotope.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\SmoothScroll.js" />
+    <Content Include="LICENSE" />
+    <Content Include="LOGO.png" />
+    <Content Include="README.md" />
+    <Content Include="Roissy.ttf" />
+    <Content Include="sendemail.htaccess" />
+  </ItemGroup>
+</Project>
